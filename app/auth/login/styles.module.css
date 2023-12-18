@@ -1,0 +1,28 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.loginBody {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.loginBody div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.loginBody div p {
+  color: var(--neutral-900, #101828);
+  font-feature-settings: "clig" off, "liga" off;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.5px;
+}

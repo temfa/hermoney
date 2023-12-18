@@ -1,0 +1,11 @@
+.resetPassword {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.resetPassword > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

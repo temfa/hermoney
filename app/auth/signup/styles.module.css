@@ -1,0 +1,11 @@
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.signupBody {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

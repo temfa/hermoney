@@ -1,0 +1,33 @@
+.changePassword {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.changePassword div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.changePassword div h2 {
+  color: var(--neutral-900, #101828);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.5px;
+}
+
+.changePassword div p {
+  color: var(--neutral-500, #667085);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.07px;
+}

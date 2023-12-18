@@ -1,0 +1,11 @@
+.forgotPassword {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.forgotPassword > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
